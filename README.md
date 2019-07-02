@@ -16,19 +16,27 @@ Circuit IDs are composed of the following variables:
 This is pretty tailored to our environment and standards, but who knows, perhaps it would be useful to some other souls out there.
 
 # Usage
+
 ## Install requirements
 ```console
 # pip3 install -r requirements.txt
 ```
+
 ## Run
 ```console
-# python3 generate_circuit_id.py
-# CRM ID: 12345
-# IP Transit [1], MPLS [2], SD-WAN [3]: 1
-# Location (US State): Arizona
 #
-# Your circucit ID is:   1.84047.12345.7371
+#  CRM ID: 19322
+#  US State: hi
 #
+#  Service Type:
+#      [1] IP Transit
+#      [2] MPLS
+#      [3] SD-WAN
+#      [4] Cross Connect
+#  : 3
+#
+# Circuit ID: 3.84048.12345.5821
+
 ```
 
 # License
