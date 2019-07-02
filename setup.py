@@ -6,7 +6,7 @@ import shutil
 if sys.version_info < (2, 7):
     sys.exit("Python 2.7+ is required.")
 
-shutil.copyfile("generate_circuit_id.py", "generate-circuit-id")
+shutil.copyfile("generate_circuit_id/generate_circuit_id.py", "generate-circuit-id")
 
 setup(
     name="Generate Circuit ID",
