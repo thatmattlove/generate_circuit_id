@@ -1,1 +1,1 @@
-colorama
+click>=6.7
