@@ -159,7 +159,7 @@ def get_info(customer_id, search_state, service_type):
     circuit_loc_id = "".join([service_country, service_state[1], service_state[0]])
     circuit_id = ".".join([service_type, circuit_loc_id, str(customer_id), id_number])
     click.echo(
-        click.style("\nCircuit ID: ", fg="black")
+        click.style("\nCircuit ID: ", fg="white")
         + click.style(circuit_id + "\n", fg="cyan", bold=True)
     )
 
